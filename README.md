@@ -1,5 +1,5 @@
 # MINI PROJECT LARAVEL DOCKER
-## Menjalankan aplikasi laravel modern di atas Docker menggunakan Nginx, Mysql, Dan Redis
+## Menjalankan aplikasi laravel modern di atas Docker menggunakan Nginx, MySQL, Dan Redis
 
 ## Skenario Project & Arsitektur
 - Menjalankan 4 kontainer utama yang berkerja sama:
@@ -18,16 +18,6 @@ Pengguna --> web (Nginx) --> app (Laravel/PHP-FPM) --> db(MySQL) & cache (Redis)
 1. Docker dan Docker compose
 2. Composer
 3. Proyek Laravel 
-
-## Struktur Proyek
-laravel-docker-project/
-├── my-laravel-app/         # <-- Folder berisi kode Laravel yang baru
-├── .docker/                # <-- Folder untuk konfigurasi Docker kita
-│   ├── nginx/
-│   │   └── default.conf    # <-- Konfigurasi Nginx
-│   └── php/
-│       └── Dockerfile      # <-- Dockerfile untuk image PHP kustom kita
-└── docker-compose.yml      # <-- File orkestrasi utama
 
 ## Command menjalankan container
 
