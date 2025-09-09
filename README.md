@@ -62,3 +62,6 @@ docker compose up -d --force-recreate
 docker compose up -d --force-recreate web
 ```
 ![documentation](image/Screenshot_6.png)
+
+# HASIL AKHIR TEST DI BROWSER
+![documentation](image/Screenshot_8.png)
