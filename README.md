@@ -65,3 +65,8 @@ docker compose up -d --force-recreate web
 
 # HASIL AKHIR TEST DI BROWSER
 ![documentation](image/Screenshot_9.png)
+
+## 🎯 Tujuan
+
+Project ini dibuat untuk tujuan **pembelajaran**.
+Feel free to modify and experiment 🚀
